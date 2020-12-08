@@ -4,5 +4,9 @@ def join_nested_strings(src)
   strings = []
   src.length.times do |count|
     src[count].length.times do |inner_count|
-      if src[count.]
+      if src[count].is_a ? String 
+        strings << src[count]
+      end
+    end
+    strings.flatten
 end
