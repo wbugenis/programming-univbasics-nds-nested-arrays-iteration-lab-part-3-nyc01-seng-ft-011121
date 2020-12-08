@@ -4,7 +4,7 @@ def join_nested_strings(src)
   strings = ""
   src.length.times do |count|
     src[count].length.times do |inner_count|
-      if (src[count][inner_count].is_a ? String) 
+      if (src[count][inner_count].class == String) 
         strings += src[count][inner_count]
       end
     end
