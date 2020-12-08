@@ -8,6 +8,6 @@ def join_nested_strings(src)
         strings << src[count][inner_count]
       end
     end
-    strings.flatten
   end
+  strings.flatten
 end
